@@ -1,0 +1,79 @@
+trocar os ids por classes no css
+
+ <nav class="barra-navegacao">
+            <a href="#inicio-sec"><span>Início</span></a>
+            <a href="#sobre-mim-sec"><span>Sobre mim</span></a>
+            <a href="#contatos-sec"><span>Contatos</span></a>
+        </nav>
+
+        <main>
+        <section id="#inicio-sec">
+            <h1>teste</h1>
+        </section>
+            
+        <section id="#sobre-mim-sec">
+            <h1>teste</h1>
+        </section>
+
+        <section id="#contatos-sec">
+            <h1>teste</h1>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
+
+#############################
+
+/* reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*  */
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    background-color: black;
+
+}
+
+header ul{
+    display: flex;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+#inicio-sec {
+    background: aliceblue;
+    
+}
+
+#sobre-mim-sec {
+    background-color: aqua;
+    
+}
+
+#contatos-sec {
+    background-color: bisque;
+}
+
+h1{
+    color: white ;
+}
