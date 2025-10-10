@@ -18,6 +18,10 @@ header ul{
     display: flex;
 }
 
+nav {
+    
+}
+
 nav a{
     text-decoration: none;
     color: black;
@@ -56,7 +60,7 @@ header{
     display: flex;
     position: fixed;
     background-color: rgba(255, 255, 255, 0);
-     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1001);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1001);
    
     
 }
@@ -69,7 +73,27 @@ nav {
     align-items: center;
     gap: 50px;
 }
+
 .logo-olhos {
     width: 38px;
     height: 38px;
+}
+
+header figure {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.imagem-zoio-inicio {
+    width: 600px;
+}
+
+.container-imagem-zoio {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }

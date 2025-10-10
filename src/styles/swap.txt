@@ -1,1 +1,3 @@
 trocar os ids por classes no css
+ colocar: margin-left: 50px;
+    margin-right: 50px; nas section
