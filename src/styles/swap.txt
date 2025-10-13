@@ -11,3 +11,10 @@ atualizar nav
 fechar as tags q n se fecham automaticamente
 
 editar os alt para ajudar na descriçao das imagens
+
+box shadow do card project
+box-shadow: rgba(43, 105, 251, 0.06) 0px 0px 1rem 1rem; 
+
+fazer meu link do github abrir em outra pag
+
+mudar pra .ico o icone da pagina
