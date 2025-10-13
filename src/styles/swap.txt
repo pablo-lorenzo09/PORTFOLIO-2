@@ -7,3 +7,7 @@ ajeitar o nome das classes
 
 arumar margin da imagem do zoio na primeira section
 atualizar nav
+
+fechar as tags q n se fecham automaticamente
+
+editar os alt para ajudar na descriçao das imagens

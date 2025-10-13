@@ -31,18 +31,17 @@ section {
   display: flex;
   width: 100%;
   height: 100vh;
-  align-items: center;
-  justify-content: center;
 
 }
 
 #inicio-sec {
     background: rgb(255, 255, 255);
-    
+    display: flex;
+    align-items: center;
 }
 
 #sobre-mim-sec {
-    background-color: rgb(94, 94, 94);
+    background-color: rgb(255, 255, 255);
     
 }
 
@@ -83,6 +82,7 @@ header figure {
 
 }
 
+/* elementos da section 1 */
 .imagem-zoio-inicio {
     width: 40vw;
     /* 600px no meu monitor */
@@ -100,6 +100,7 @@ header figure {
 .textos-imgs-apresentacao {
     width: 50vw;
     margin-left: 5vw;
+    
 
 }
 
@@ -127,4 +128,22 @@ header figure {
 .logos-tecnologias {
     width: 17vw;
     
+}
+
+/* elementos da section 2 */
+.imagem-sec-2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.zoio-perfil {
+    width: 450px;
+    border-radius: 999px;
+    margin-left: 12vw;
+}
+
+
+
+.infos-sec-2 {
+
 }
