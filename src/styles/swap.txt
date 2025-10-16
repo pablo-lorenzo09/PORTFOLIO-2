@@ -1,12 +1,5 @@
-trocar os ids por classes no css
- colocar: margin-left: 50px;
-    margin-right: 50px; nas section
-
-arrumar a disposição das logos das tecnologias
 ajeitar o nome das classes
 
-arumar margin da imagem do zoio na primeira section
-atualizar nav
 
 fechar as tags q n se fecham automaticamente
 
@@ -17,6 +10,7 @@ box-shadow: rgba(43, 105, 251, 0.06) 0px 0px 1rem 1rem;
 
 fazer meu link do github abrir em outra pag
 
-mudar pra .ico o icone da pagina
 
 arrumar o alinhamento dos icon
+
+deixar  o border radius responsivo

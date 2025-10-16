@@ -46,6 +46,13 @@ section {
     
 }
 
+#projetos-sec {
+    height: 200vh;
+    padding: 50px;
+    flex-direction: column;
+    /*  */
+}
+
 #contatos-sec {
     background-color: rgb(255, 255, 255);
 }
@@ -55,7 +62,7 @@ header{
     height: 6.7vh;
     display: flex;
     position: fixed;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1001);
    
     
@@ -68,6 +75,7 @@ nav {
     align-items: center;
     gap: 3vw;
     margin-right: 5vw;
+    font-size: 1.1vw;
 }
 
 .logo-olhos {
@@ -194,3 +202,36 @@ h2{
     display: flex;
     justify-content: space-between;
 }
+
+
+/* elementos da section 3 */
+
+#projetos-sec h1{
+    text-align: center;   
+}
+.card-projeto{
+    background-color: #eeeeee;
+    width: 19vw;
+    height: 58vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 0 30px rgba(100, 150, 255, 0.15);
+}
+
+.card-projeto img{
+    width: 17.5vw;
+    height: 16.2vh;
+    border-radius: 10px;
+}
+
+
+.container-projetos{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 70px
+
+}
+
