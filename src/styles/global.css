@@ -47,14 +47,15 @@ section {
 }
 
 #projetos-sec {
-    height: 200vh;
-    padding: 50px;
+    height: 100vh;
+    padding: 70px;
     flex-direction: column;
     /*  */
 }
 
 #contatos-sec {
     background-color: rgb(255, 255, 255);
+    height: 100vh;
 }
 
 header{
@@ -207,7 +208,11 @@ h2{
 /* elementos da section 3 */
 
 #projetos-sec h1{
-    text-align: center;   
+    text-align: center; 
+    color: #49505A;
+    font-weight: 500; 
+    font-size: 3vw;
+
 }
 .card-projeto{
     background-color: #eeeeee;
@@ -230,8 +235,11 @@ h2{
 .container-projetos{
     width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 70px
 
 }
+
+/* elementos da section contatos */
+
 
