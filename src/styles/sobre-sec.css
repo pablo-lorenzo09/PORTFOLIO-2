@@ -1,0 +1,63 @@
+/* elementos da section 2 */
+.container-imagem-sec-2 {
+    display: flex;
+    align-items: center;
+}
+
+.zoio-perfil {
+    width: 30vw;
+    border-radius: 999px;
+    margin-left: 12vw;
+}
+
+
+
+.container-infos-sec-2 {
+    margin-right: 5vw;
+    margin-left: 5vw;
+
+}
+
+.container-apresentacao h1{
+    color: #49505A;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.container-apresentacao p{
+    color: #49505A;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+}
+
+.link-github{
+    display: inline;
+}
+
+.container-apresentacao figure{
+    display: inline;
+}
+
+.interesses ul{
+    color: #49505A;
+    font-size: 2vw;
+}
+
+.formacoes ul{
+    color: #49505A;
+    list-style-image: url('/src/assets/forma-icon.svg');
+    padding-left: 1.2rem;
+}
+
+h2{
+    color: #49505A;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.listas-sec-2{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
