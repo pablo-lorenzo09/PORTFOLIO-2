@@ -16,6 +16,7 @@
     flex-direction: column;
     padding: 10px;
     box-shadow: 0 0 30px rgba(100, 150, 255, 0.15);
+    
 }
 
 .card-projeto img{
@@ -28,7 +29,11 @@
 .container-projetos{
     width: 100vw;
     display: flex;
-    justify-content: flex-start;
-    gap: 70px
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+
 
 }
+
+

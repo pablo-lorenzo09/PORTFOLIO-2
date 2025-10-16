@@ -51,9 +51,10 @@ section {
 }
 
 #projetos-sec {
-    height: 100vh;
-    padding: 70px;
+    height: 200vh;
+    padding: 70px 0 0 0;
     flex-direction: column;
+
     /*  */
 }
 
