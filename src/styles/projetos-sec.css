@@ -5,6 +5,7 @@
     color: #49505A;
     font-weight: 500; 
     font-size: 3vw;
+    line-height: 100px;
 
 }
 .card-projeto{
@@ -16,8 +17,19 @@
     flex-direction: column;
     padding: 10px;
     box-shadow: 0 0 30px rgba(100, 150, 255, 0.15);
+    overflow: hidden;
+    transition: ease-out 0.3s;
+
     
 }
+
+.card-projeto:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+    
+}
+
 
 .card-projeto img{
     width: 17.5vw;
