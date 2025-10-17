@@ -1,72 +1,32 @@
-/* elementos da section contatos */
-
-#contatos-sec h1{
-    
-}
-
-/* Estilo para a div container (opcional, mas bom para organização) */
 .input-container {
     display: flex;
     flex-direction: column;
-    width: 300px; /* Ajuste a largura conforme necessário */
+    width: 300px;
     margin-bottom: 20px;
 }
 
-/* Estilo para o rótulo (texto "Your Name") */
+
 .input-label {
     font-size: 0.9em;
-    color: #999; /* Cor cinza/roxo claro */
+    color: #999; 
     margin-bottom: 5px;
 }
 
-/* Estilo para o campo de input */
+
 .minimal-input {
-    /* Remove as bordas padrão */
+
     border: none;
-    /* Define apenas a borda inferior (o sublinhado) */
-    border-bottom: 1px solid #ccc; /* Cor da linha inferior */
-    
-    /* Remove o contorno que aparece ao focar (opcional) */
+    border-bottom: 1px solid #ccc;
     outline: none;
     
-    /* Adiciona um pouco de padding (espaço interno) */
     padding: 10px 0;
     
-    /* Ajusta a fonte/tamanho se necessário */
     font-size: 1em;
-    
-    /* Define a cor do texto digitado */
     color: #333; 
     
-    /* Define o fundo transparente ou branco para não ter caixa */
     background-color: transparent; 
 }
 
-/* Estilo para o texto placeholder ("Enter your name") */
-/* Isso é crucial para a cor e o estilo do texto de dica */
-.minimal-input::placeholder {
-    color: #a0a0a0; /* Cor mais clara para o placeholder */
-    opacity: 1; /* Garante que o placeholder não fique muito transparente no Firefox */
-    /* Você pode adicionar um estilo de fonte para o placeholder se for diferente */
-    font-size: 1.1em; /* Um pouco maior que o label, como na imagem */
-}
 
 
-/* Estilos para navegadores mais antigos (compatibilidade do placeholder) */
-/* Embora a maioria dos navegadores modernos suporte apenas ::placeholder */
-.minimal-input::-webkit-input-placeholder { /* Chrome, Safari */
-    color: #a0a0a0;
-}
 
-.minimal-input:-moz-placeholder { /* Firefox 18- */
-    color: #a0a0a0;
-}
-
-.minimal-input::-moz-placeholder { /* Firefox 19+ */
-    color: #a0a0a0;
-    opacity: 1;
-}
-
-.minimal-input:-ms-input-placeholder { /* IE 10+ */
-    color: #a0a0a0;
-}
