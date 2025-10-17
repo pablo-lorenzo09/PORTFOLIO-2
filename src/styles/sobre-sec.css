@@ -39,6 +39,7 @@
 }
 
 .interesses ul{
+    list-style: none;
     color: #49505A;
     font-size: 2vw;
 }

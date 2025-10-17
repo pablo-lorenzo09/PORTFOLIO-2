@@ -1,10 +1,11 @@
 #contatos-sec h1{
+    text-align: center; 
     color: #49505A;
+    font-weight: 500; 
     font-size: 3vw;
-    font-weight: 600;
-
+    line-height: 100px;
+    padding: 4vh;
 }
-
 
 .inputs-de-cima {
     display: flex;
