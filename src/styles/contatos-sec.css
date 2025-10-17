@@ -5,6 +5,11 @@
 
 }
 
+.inputs-de-cima {
+    display: flex;
+    gap: 30px;
+}
+
 .input-container {
     display: flex;
     flex-direction: column;
@@ -45,5 +50,9 @@
 }
 
 .input-submit:hover {
-    background-color: #e7e7e7; /* Um fundo levemente roxo ao passar o mouse */
+    background-color: #e7e7e7; 
+}
+
+#mensagem {
+    width: 630px;
 }
