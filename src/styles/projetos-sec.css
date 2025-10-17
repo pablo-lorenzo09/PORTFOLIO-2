@@ -6,6 +6,7 @@
     font-weight: 500; 
     font-size: 3vw;
     line-height: 100px;
+    padding: 5vh;
 
 }
 .card-projeto{
@@ -15,10 +16,11 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 0 0 30px rgba(100, 150, 255, 0.15);
     overflow: hidden;
     transition: ease-out 0.3s;
+    gap: 2vh;
 
     
 }
@@ -48,4 +50,14 @@
 
 }
 
+
+.card-projeto h2{
+    text-align: center;
+    font-size: 2vw;
+}
+
+.card-projeto p{
+    text-align: center;
+    font-size: 1vw;
+}
 

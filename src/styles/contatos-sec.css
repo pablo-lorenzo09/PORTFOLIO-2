@@ -1,3 +1,10 @@
+#contatos-sec h1{
+    color: #49505A;
+    font-size: 3vw;
+    font-weight: 600;
+
+}
+
 .input-container {
     display: flex;
     flex-direction: column;
@@ -18,15 +25,25 @@
     border: none;
     border-bottom: 1px solid #ccc;
     outline: none;
-    
     padding: 10px 0;
-    
     font-size: 1em;
     color: #333; 
-    
     background-color: transparent; 
 }
 
+.input-submit {
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px 20px; 
+    border: 2px solid #999;; 
+    background-color: white; 
+    cursor: pointer;
 
+    color: #999;
+    font-weight: bold;
+}
 
-
+.input-submit:hover {
+    background-color: #e7e7e7; /* Um fundo levemente roxo ao passar o mouse */
+}
