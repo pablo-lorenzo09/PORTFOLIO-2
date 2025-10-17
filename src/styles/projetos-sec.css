@@ -28,17 +28,13 @@
 .card-projeto:hover{
     transform: scale(1.1);
     cursor: pointer;
-
-    
 }
-
 
 .card-projeto img{
     width: 17.5vw;
     height: 16.2vh;
     border-radius: 10px;
 }
-
 
 .container-projetos{
     width: 100vw;
