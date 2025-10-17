@@ -1,7 +1,7 @@
 /* elementos da section 2 */
 #sobre-mim-sec {
     align-items: center; 
-
+}
 .container-imagem-sec-2 {
     flex: 1 1 40%;
     display: flex;
@@ -62,9 +62,11 @@
 }
 
 .formacoes ul{
-    color: #49505A;
     list-style-image: url('/src/assets/forma-icon.svg');
-    padding-left: 1.2rem;
+    color: #49505A;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 h2{
