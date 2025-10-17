@@ -38,13 +38,11 @@ section {
 
 #inicio-sec {
     background: rgb(255, 255, 255);
-    display: flex;
     align-items: center;
 }
 
 #sobre-mim-sec {
     background-color: rgb(255, 255, 255);
-    display: flex;
     align-items: center; 
     /*  */
     
@@ -59,6 +57,7 @@ section {
 }
 
 #contatos-sec {
+    flex-direction: column;
     background-color: rgb(255, 255, 255);
     height: 100vh;
     padding: 70px 0 0 0;
