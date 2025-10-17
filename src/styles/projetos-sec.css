@@ -4,7 +4,7 @@
     text-align: center; 
     color: #49505A;
     font-weight: 500; 
-    font-size: 3vw;
+    font-size: 41px;
     line-height: 100px;
     padding: 4vh;
 
@@ -37,23 +37,25 @@
 }
 
 .container-projetos{
-    width: 100vw;
+    /* usar 100% ao invés de 100vw evita que a largura inclua a barra de rolagem do navegador */
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 2vw; /* espaçamento horizontal para controlar gaps sem causar overflow */
     display: flex;
     flex-wrap: wrap;
     gap: 70px;
     justify-content: center;
-
 
 }
 
 
 .card-projeto h2{
     text-align: center;
-    font-size: 2vw;
+    font-size: 27px;
 }
 
 .card-projeto p{
     text-align: center;
-    font-size: 1vw;
+    font-size: 14px;
 }
 

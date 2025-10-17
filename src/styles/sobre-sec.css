@@ -1,47 +1,64 @@
 /* elementos da section 2 */
+#sobre-mim-sec {
+    align-items: center; 
+
 .container-imagem-sec-2 {
+    flex: 1 1 40%;
     display: flex;
+    justify-content: center;
     align-items: center;
+    padding: 2rem;
 }
 
 .zoio-perfil {
-    width: 30vw;
+    width: 300px; 
+    max-width: 80%;
     border-radius: 999px;
-    margin-left: 12vw;
+    margin: 0;
+    display: block;
 }
 
-
-
 .container-infos-sec-2 {
-    margin-right: 5vw;
-    margin-left: 5vw;
+    flex: 1 1 60%;
+    padding: 2rem;
+}
 
+.container-apresentacao{
+    max-width: 720px;
 }
 
 .container-apresentacao h1{
     color: #49505A;
-    font-size: 3vw;
+    font-size: 41px;
     font-weight: 600;
+    margin-bottom: 0.5rem;
 }
 
 .container-apresentacao p{
     color: #49505A;
-    font-size: 1.5vw;
-    margin-bottom: 1vw;
+    font-size: 20px;
+    margin-bottom: 14px;
+    line-height: 1.5;
 }
 
 .link-github{
-    display: inline;
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #49505A;
 }
 
 .container-apresentacao figure{
-    display: inline;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5rem;
 }
 
 .interesses ul{
     list-style: none;
     color: #49505A;
-    font-size: 2vw;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 .formacoes ul{
@@ -52,13 +69,21 @@
 
 h2{
     color: #49505A;
-    font-size: 1.5vw;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
+    margin-bottom: 0.5rem;
 }
 
 .listas-sec-2{
-    margin-top: 5vh;
+    margin-top: 2rem;
     display: flex;
-    justify-content: space-between;
+    gap: 2rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.interesses, .formacoes{
+    flex: 1 1 220px; 
 }

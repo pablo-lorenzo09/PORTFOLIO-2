@@ -11,6 +11,19 @@
     box-sizing: border-box;
 }
 
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+img, picture, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 /*  */
 html {
     scroll-behavior: smooth;
@@ -49,7 +62,7 @@ section {
 }
 
 #projetos-sec {
-    height: 200vh;
+    height: 160vh;
     padding: 70px 0 0 0;
     flex-direction: column;
 
@@ -84,7 +97,7 @@ nav {
     align-items: center;
     gap: 3vw;
     margin-right: 5vw;
-    font-size: 1.1vw;
+    font-size: 15px;
 }
 
 .logo-olhos {
@@ -96,7 +109,7 @@ header figure {
     display: flex;
     align-items: center;
     margin-left: 5vw;
-    /* 50px */
+
 
 }
 

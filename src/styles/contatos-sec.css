@@ -2,9 +2,17 @@
     text-align: center; 
     color: #49505A;
     font-weight: 500; 
-    font-size: 3vw;
+    font-size: 41px;
     line-height: 100px;
     padding: 4vh;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .inputs-de-cima {
@@ -51,10 +59,16 @@
     font-weight: bold;
 }
 
+
+.input-submit{
+    display: inline-flex;
+}
+
 .input-submit:hover {
     background-color: #e7e7e7; 
 }
 
 #mensagem {
-    width: 630px;
+    width: 100%;
+    max-width: 630px;
 }

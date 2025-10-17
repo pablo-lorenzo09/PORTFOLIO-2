@@ -1,7 +1,7 @@
 /* elementos da section 1 */
 .imagem-zoio-inicio {
     width: 40vw;
-    /* 600px no meu monitor */
+
 }
 
 .container-imagem-zoio {
@@ -27,7 +27,7 @@
 .nome {
     color: #49505A;
     font-family: Inter;
-    font-size: 4vw;
+    font-size: 55px;
     font-weight: 500;
 
 
@@ -36,7 +36,7 @@
 .textos-inicio-sec p {
     color: #828485;
     font-family: Inter;
-    font-size: 2vw;
+    font-size: 27px;
     font-weight: 400;
     
 }
